@@ -32,4 +32,4 @@ class Employee(models.Model):
         return self.get_full_name()
 
     def get_full_name(self):
-        return '{} {} / {}'.format(self.first_name, self.last_name)
+        return '{} {}'.format(self.first_name, self.last_name)
